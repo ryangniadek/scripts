@@ -1,5 +1,11 @@
 # Script to search DuckDuckGo. Searches the list of arguments as one String
 # It is reccomened that the following line be added to your bashrc file so this can be called a command
+#   alias search="python3 ~/scripts/search.py"
+# then you can type
+#   search word1 word2 ...
+# and it will preform a search for that query on DuckDuckGo
+
+
 
 import sys, webbrowser
 
