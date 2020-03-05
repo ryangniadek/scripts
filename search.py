@@ -5,8 +5,6 @@
 #   search word1 word2 ...
 # and it will preform a search for that query on DuckDuckGo
 
-
-
 import sys, webbrowser
 
 if len(sys.argv) == 1:
