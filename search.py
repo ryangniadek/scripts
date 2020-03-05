@@ -18,4 +18,4 @@ for term in terms:
 
 print("Loading.......")
 
-print("DuckDuckGo search opened in new tab of default browser") if webbrowser.open_new_tab(url) else print("Operation failed")
+print("DuckDuckGo search opened in new tab of default browser") if webbrowser.open_new_tab(url) else sys.exit("Operation failed")
